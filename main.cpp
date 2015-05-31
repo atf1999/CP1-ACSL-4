@@ -118,7 +118,11 @@ void binary(){
             bLett += "";
         }
      }
-     cout<<"Final Letter: "<<bLett;
+     cout<<"Final Letter: "<<bLett<<"\n";
+     cout<<"Press any key to continue"
+
+    cin.sync();
+    cin.get();
   }
 
 
